@@ -1,0 +1,22 @@
+/*fuente Rondal*/
+@font-face {
+    font-family: 'rondalbold';
+    src: url('./fonts/rondal-bold-webfont.woff2') format('woff2'),
+         url('./fonts/rondal-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'rondalregular';
+    src: url('./fonts/rondal-regular-webfont.woff2') format('woff2'),
+         url('./fonts/rondal-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'rondalsemibold';
+    src: url('./fonts/rondal-semibold-webfont.woff2') format('woff2'),
+         url('./fonts/rondal-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
