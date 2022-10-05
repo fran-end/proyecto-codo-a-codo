@@ -20,7 +20,37 @@
     font-weight: normal;
     font-style: normal;
 }
-
+body{
+    font-family: "rondalsemibold";
+    background: #212123;
+    color: #e1e1e1;
+}
 .logo{
     width: 200px;
+    
+}
+
+.caja{
+    position: relative;
+    margin: 0 auto;
+}
+
+nav{
+    position: absolute;
+    top:110px;
+    right: 0;
+    margin-right: 500px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;   
+}
+nav a{
+    text-transform: uppercase;
+    color: #e1e1e1;
+    font-size: 22px;
+    text-decoration: none;
+    padding: 20px;
+
 }
