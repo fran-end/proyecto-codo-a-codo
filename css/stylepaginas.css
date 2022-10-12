@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'rondalbold';
+    src: url('./fonts/rondal-bold-webfont.woff2') format('woff2'),
+         url('./fonts/rondal-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'rondalregular';
+    src: url('./fonts/rondal-regular-webfont.woff2') format('woff2'),
+         url('./fonts/rondal-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'rondalsemibold';
+    src: url('./fonts/rondal-semibold-webfont.woff2') format('woff2'),
+         url('./fonts/rondal-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+
+.logo{
+    width: 200px;
+    margin-left: 30%;
+}
+
+.barra-nav{
+    width: 100%;
+    text-align: center;
+    margin-right: 10%;
+}
+
+nav li{
+    display: inline-flex;
+    padding-top: 65px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #e1e1e1;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 20px;
+}
