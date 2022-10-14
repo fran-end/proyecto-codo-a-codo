@@ -155,6 +155,7 @@ h4::before{
     vertical-align: top;
     margin: 0 2% 0 2%;
     box-sizing: border-box;
+    animation: "animate__zoomInLeft"
 }
 .contenedor-img2{
     background: #e1e1e1;
