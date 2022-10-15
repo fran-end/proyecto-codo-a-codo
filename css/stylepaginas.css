@@ -1,3 +1,4 @@
+/*fuente Rondal*/
 @font-face {
     font-family: 'rondalbold';
     src: url('./fonts/rondal-bold-webfont.woff2') format('woff2'),
@@ -19,17 +20,14 @@
     font-weight: normal;
     font-style: normal;
 }
-
 html{
     background: #212123;
-    font-family: rondalsemibold;
 }
-
 body{
     width: 100%;
     height: 100%;
+    font-family: rondalsemibold;
 }
-
 header{
     display: flex;
     width: 100%;
@@ -60,12 +58,10 @@ nav a{
     padding: 20px;
 }
 
-
-
-
-
-
-
+nav a:hover{
+    color: #ad987d;
+    text-decoration: underline;
+}
 
 
 
