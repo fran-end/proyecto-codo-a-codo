@@ -1,4 +1,4 @@
-/*fuente Rondal*/
+/* fuente Rondal */
 @font-face {
     font-family: 'rondalbold';
     src: url('./fonts/rondal-bold-webfont.woff2') format('woff2'),
@@ -28,7 +28,7 @@ body{
     height: 100%;
     background-image: url('../imagenes/fondo.png');
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100vw;
 
     font-family: rondalsemibold;
 }
@@ -67,7 +67,7 @@ nav a:hover{
     text-decoration: underline;
 }
 
-div h2{
+section h2{
     font-family: rondalsemibold;
     font-size: 35px;
     color: #e1e1e1;
@@ -75,17 +75,18 @@ div h2{
     padding: 8% 0 0 4%;
 }
 .slogan{
+    width: 40%;
     color: #ad987d;
     font-family: rondalsemibold;
     font-size: 22px;
     line-height: 1.5;
-    text-align: justify;
     padding: 2% 0 0 4%;
 }
+
 .nosotros{
     width: 100%;
     display: inline-flex;
-    margin-top: 10%;
+    margin-top: 12%;
 }
 .imagen1{
     margin: 0 2% 0 1%;  
@@ -107,6 +108,7 @@ h3::before{
     background-color: #ad987d;
     top: 0.6em;
 }
+
 h3::before{
     left: -100px;
 }
@@ -120,6 +122,7 @@ h3::before{
 }
 
 .info2{
+    width: 65%;
     font-family: rondalregular;
     color: #ad987d;
     font-size: 22px;
@@ -127,7 +130,6 @@ h3::before{
     padding: 3% 0 0 15%;
 }
 .barberos{
-    width: 100%
     margin: 0 auto;
     padding: 50px;
 }
@@ -152,7 +154,7 @@ h4::before{
 }
 
 .contenedor-img{
-    margin: 3% 0 0 8%;
+    margin: 2% 0 3% 8%;
 }
 .barberos li{
     display: inline-block;
@@ -160,7 +162,6 @@ h4::before{
     vertical-align: top;
     margin: 0 2% 0 2%;
     box-sizing: border-box;
-    animation: "animate__zoomInLeft"
 }
 .contenedor-img2{
     background: #e1e1e1;
@@ -194,6 +195,12 @@ footer{
     padding-top: 3%;
     padding-left: 1%;
 }
+
+.datos a{
+    text-decoration: none;
+    color: #ad987d;
+}
+
 .tel-icono{
     display: flex;
 }

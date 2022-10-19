@@ -20,14 +20,17 @@
     font-weight: normal;
     font-style: normal;
 }
+
 html{
     background: #212123;
 }
+
 body{
     width: 100%;
     height: 100%;
     font-family: rondalsemibold;
 }
+
 header{
     display: flex;
     width: 100%;
@@ -65,6 +68,289 @@ nav a:hover{
 
 
 
+/* CSS MAIN - SERVICIOS */
+
+h2{
+    display: inline-block;
+    position: relative;
+    font-size: 50px;
+    color: #e1e1e1;
+    margin: 3% 0 2% 13%;
+}
+
+h2::before{
+    content: '';
+    position: absolute;
+    width: 75px;
+    height: 7px;
+    background-color: #ad987d;
+    top: 0.6em;
+}
+
+h2::before{
+    left: -100px;
+}
+
+.serv-1{
+    display: inline-flex;
+    margin-left: 3%;
+}
+
+.img-serv1{
+    padding-top: 1%;
+}
+
+.serv-1-detalles{
+    padding: 1%;
+}
+
+.titulo-icono-1{
+    display: flex;
+    padding: 3% 0 4% 7%;
+}
+
+.titulo-icono-1 img{
+    width: 80px;
+}
+
+.titulo-icono-1 h3{
+    font-size: 40px;
+    color: #e1e1e1;
+    padding: 1.5% 0 0 1%;
+}
+
+.serv-1-detalles p{
+    font-family: rondalregular;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #ad987d;
+    padding: 2% 0 0 8%;
+}
+
+.texto1{
+    width: 75%;
+    text-align: left;
+    margin-left: 2%;
+}
+
+.titulo-icono-2{
+    display: flex;
+    padding: 3% 0 2% 3%;
+}
+
+.titulo-icono-2 h3{
+    font-size: 40px;
+    color: #e1e1e1;
+    padding: 0.9% 0 0 0.5%;
+}
+
+.titulo-icono-2 img{
+    width: 80px;
+}
+
+.serv-2-detalles p{
+    font-family: rondalregular;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #ad987d;
+    padding: 4% 0 0 4%;
+}
+
+.texto2{
+    width: 60%;
+    text-align: left;
+    margin-left: 2.5%;
+}
+
+.serv-2{
+    display: inline-flex;
+    margin-bottom: 1.5%;
+}
+
+.img-serv2{
+    margin-left: -7%;
+}
+.serv-2-detalles{
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.serv-3{
+    display: inline-flex;
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+
+.serv-3-detalles{
+    margin-top: 1%;
+    margin-left: 1%;
+}
+
+.titulo-icono-3{
+    display: flex;
+    padding: 3% 0 0 7%;
+}
+
+.titulo-icono-3 img{
+    width: 130px;
+}
+
+.titulo-icono-3 h3{
+    font-size: 40px;
+    color: #e1e1e1;
+    padding: 4% 0 0 0;
+}
+
+.serv-3-detalles p{
+    font-family: rondalregular;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #ad987d;
+    padding: 1% 0 0 14%;
+}
+
+.texto3{
+    width: 65%;
+    text-align: left;
+    margin-left: 2%;
+}
+
+.titulo-icono-4{
+    display: flex;
+    padding: 3% 0 4% 3%;
+}
+
+.titulo-icono-4 h3{
+    font-size: 40px;
+    color: #e1e1e1;
+    padding: 2% 0 0 0.5%;
+}
+
+.titulo-icono-4 img{
+    width: 70px;
+}
+
+.serv-4-detalles p{
+    font-family: rondalregular;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #ad987d;
+    padding: 4% 0 0 4%;
+}
+
+.texto4{
+    width: 60%;
+    text-align: left;
+    margin-left: 2.5%;
+}
+
+.serv-4{
+    display: inline-flex;
+    margin-bottom: 3%;
+}
+
+.img-serv4{
+    margin-left: -7%;
+}
+
+.serv-4-detalles{
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+.divisor-img{
+    width: 150px;
+    padding-right: 150px;
+}
+
+html .lista-precio{
+    text-align: center;
+}
+
+h4{
+    display: inline-block;
+    position: relative;
+    font-size: 50px;
+    color: #e1e1e1;
+    margin: 3% 0 2% 10%;
+}
+
+h4::after,h4::before{
+    content: "";
+    position: absolute;
+    width: 600px;
+    height: 3px;
+    background-color: #ad987d;
+    top: 1.2em;
+}
+
+h4::before{
+    left: -620px;
+}
+
+h4::after{
+    right: -480px;
+}
+.titulo-precio h3{
+    font-family: rondalsemibold;
+    font-size: 40px;
+    color: #e1e1e1;
+    text-transform: uppercase;
+}
+
+.contenedor-lista{
+    width: 50%;
+    align-self: center;
+    font-family: rondalregular;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 3% 25% 0 25%;
+}
+
+.list-serv{
+    color: #ad987d;
+}
+.list-precio{
+    color: #e1e1e1;
+}
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1%;
+}
+
+h6{
+    display: inline-block;
+    position: relative;
+    font-size: 50px;
+    color: #e1e1e1;
+    margin: -1% 0 0 10%;
+}
+h6::before{
+    content: '';
+    position: absolute;
+    width: 765px;
+    height: 2px;
+    background-color: #ad987d;
+    top: -0.4em;
+}
+h6::before{
+    left: -420px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -73,9 +359,11 @@ nav a:hover{
 
 footer{
     padding-left: 4%;
+    margin-top: 5%;
 }
 .footer-div{
     display: flex;
+    margin-top: -1.5%;
 }
 .logo-footer{
     width: 200px;
@@ -93,6 +381,12 @@ footer{
     padding-top: 3%;
     padding-left: 1%;
 }
+
+.datos a{
+    text-decoration: none;
+    color: #ad987d;
+}
+
 .tel-icono{
     display: flex;
 }
