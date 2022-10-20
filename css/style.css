@@ -139,7 +139,7 @@ h4{
     position: relative;
     font-size: 50px;
     color: #e1e1e1;
-    margin: 3% 0 2% 10%;
+    margin: 3% 0 0 10%;
 }
 h4::before{
     content: '';
@@ -153,16 +153,81 @@ h4::before{
     left: -100px;
 }
 
-.contenedor-img{
-    margin: 2% 0 3% 8%;
+.equipo{
+    width: 80%;
+    display: flex;
+    margin: 0 10% 0 10%;
 }
-.barberos li{
-    display: inline-block;
+
+.contenedor-imgA{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contenedor-imgA figure{
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0px 1px 15px rgba(173, 152, 125, 0.3);
+}
+
+.contenedor-imgA figure img{
+    width: 100%;
+    height: 100%;
+    transition: all 500ms ease-out;
+}
+
+.contenedor-imgA figure .capa1{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(175, 152, 125, 0.9);
+    transition: all 500ms ease-out;
+    opacity: 0;
+    visibility: hidden;
     text-align: center;
-    vertical-align: top;
-    margin: 0 2% 0 2%;
-    box-sizing: border-box;
 }
+
+.contenedor-imgA figure:hover > .capa1{
+    opacity: 1;
+    visibility: visible;
+}
+
+.contenedor-imgA figure:hover > .capa1 p{
+    margin-top: 200px;
+    margin-bottom: 30px;
+}
+
+.contenedor-imgA figure .capa1 p{
+    font-family: rondalbold;
+    font-size: 40px;
+    color: #212123;
+    margin-bottom: 120px;
+    transition: all 500ms ease-out;
+    margin-top: 30px;
+}
+
+.contenedor-imgA figure .capa1 button{
+    font-family: rondalregular;
+    font-size: 18px;
+    color: #212123;
+    padding: 6px;
+    background: transparent;
+    border: 3px solid #212123;
+    border-radius: 6px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer; 
+}
+
+.contenedor-imgA figure .capa1 button:hover {
+    background-color: #212123;
+    color: white;
+ }
+
 .contenedor-img2{
     background: #e1e1e1;
     vertical-align: middle;
