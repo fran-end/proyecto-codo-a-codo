@@ -511,3 +511,26 @@ h5::before{
     color: #e1e1e1;
     margin-bottom: 2%;
 }
+
+/*css galeria*/
+
+.nuestrostrabajos{
+
+    text-align: center;
+    font-family: rondalsemibold;
+    font-size: 50px;
+    color: #e1e1e1
+}
+
+.nuestrostrabajos::before{
+    content: '';
+    position: absolute;
+    width: 75px;
+    height: 7px;
+    background-color: #ad987d;
+    margin-top: 20px;
+}
+
+.nuestrostrabajos::before{
+    left: ;
+}
