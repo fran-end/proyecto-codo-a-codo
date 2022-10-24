@@ -62,28 +62,41 @@
 				<div class="clientes">
 					<h2>Clientes</h2>
 				</div>
+
 				<div class="clientes-info">
 					<p class="clientes-info">Mira lo que nuestros clientes piensan sobre nosotros</p>
 				</div>
 
-				<div class="json">
-					
+				<div id="app">
+					<div class="style1">
+						<div class="style_card style2">
+							<div v-for="comentario of comentarios" class="style_card style3">
+								<div class="style4">
+									<img :src="comentario.image" :alt="comentario.nombre">
+									<p class="n-cliente">{{comentario.nombre}}</p>
+								</div>
+								<div class="style5">
+									<p class="c-cliente">{{comentario.calificación}}</p>
+								</div>
+								<div class="style6">
+									<p class="r-cliente">{{comentario.review}}</p>
+								</div>
+							</div>
+						</div>
+					</div>	
 				</div>
-
+						
 			</section>
+
 
 			<section>
 				<div>
 					<h3 class="video">Conoce The Best Shave por dentro con este video:</h3>
 				</div>
 				<div>
-					<iframe width="60%" height="500" src="https://www.youtube.com/embed/wcVVXUV0YUY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<iframe width="910" height="500" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 				</div>
 			</section>
-
-
-
-
 
 		</main>
 
@@ -130,6 +143,12 @@
 			</div>
 		</footer>
 
+		<!-- SCRIPTS -->
+
+		<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+		<script src="../js/api.js"></script>
+		<script src="../js/script.js"></script>
+		
 	</body>
 
 </html>

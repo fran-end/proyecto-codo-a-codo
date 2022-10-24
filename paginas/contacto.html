@@ -10,6 +10,7 @@
 		<link rel="stylesheet" href="../reset.css">
 		<link rel="stylesheet" href="../css/stylepaginas.css">
 		<link rel="icon" type="image/vnd.microsoft.icon" href="../imagenes/favicon.ico">
+		<script src="https://kit.fontawesome.com/36a6e6dea3.js" crossorigin="anonymous"></script>
 		
 	</head>
 
@@ -34,6 +35,163 @@
 
 		</header>
 
+		<main>
+
+			<div class="clientes">
+				<h2>Contacto</h2>
+			</div>
+
+			<section class="seccion-formulario">
+
+				<form action="" class="formulario" id="formulario">
+
+					<!-- Grupo: Apellido -->
+					<div class="formulario__grupo" id="grupo__apellido">
+						<label for="apellido" class="formulario__label">Apellido</label>
+						<div class="formulario__grupo-input">
+							<input type="text" class="formulario__input" name="apellido" id="apellido" placeholder="Perez">
+							<i class="formulario__validacion-estado fa-regular fa-circle-xmark"></i>
+						</div>
+						<p class="formulario__input-error">Solo se pueden ingresar letras.</p>
+					</div>
+
+
+					<!-- Grupo: Nombre -->
+					<div class="formulario__grupo" id="grupo__nombre">
+						<label for="nombre" class="formulario__label">Nombre</label>
+						<div class="formulario__grupo-input">
+							<input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Fulanito">
+							<i class="formulario__validacion-estado fa-regular fa-circle-xmark"></i>
+						</div>
+						<p class="formulario__input-error">Solo se pueden ingresar letras.</p>
+					</div>
+
+
+
+					<!-- Grupo: Correo Electrónico -->
+					<div class="formulario__grupo" id="grupo__correo">
+						<label for="correo" class="formulario__label">Correo Electrónico</label>
+						<div class="formulario__grupo-input">
+							<input type="email" class="formulario__input" name="correo" id="correo" placeholder="correo@dominio.com">
+							<i class="formulario__validacion-estado fa-regular fa-circle-xmark"></i>
+						</div>
+						<p class="formulario__input-error">El correo solo puede contener letras, numeros, puntos, guiones y guion bajo.</p>
+					</div>
+
+
+
+					<!-- Grupo: Teléfono -->
+					<div class="formulario__grupo" id="grupo__telefono">
+						<label for="telefono" class="formulario__label">Telefono</label>
+						<div class="formulario__grupo-input">
+							<input type="text" class="formulario__input" name="telefono" id="telefono" placeholder="111568595613">
+							<i class="formulario__validacion-estado fa-regular fa-circle-xmark"></i>
+						</div>
+						<p class="formulario__input-error">El teléfono solo puede contener números.Sin el 0 (cero) del código de área. Máximo son 14 dígitos.</p>
+					</div>
+
+
+					<!-- Grupo: Mensaje -->
+					<div class="formulario__grupo" id="grupo__mensaje">
+						<div class="formulario__grupo-input">
+							<textarea name="consulta" id="consulta" placeholder="Mensaje" class="formulario__input"></textarea>
+							<i class="formulario__validacion-estado fa-regular fa-circle-xmark"></i>
+						</div>
+						<p class="formulario__input-error">Por favor, ingrese su consulta.</p>
+					</div>
+
+
+
+					<!-- Grupo: Terminos y Condiciones -->
+					<div class="formulario__grupo" id="grupo__terminos">
+						<label class="formulario__label">
+							<input class="formulario__checkbox" type="checkbox" name="terminos" id="terminos">
+							Acepto los Terminos y Condiciones
+						</label>
+					</div>
+					<div class="formulario__mensaje" id="formulario__mensaje">
+						<p><i class="fa-solid fa-triangle-exclamation"></i><b>Error:</b> Por favor rellena el formulario correctamente.</p>
+					</div>
+					<div class="formulario__grupo formulario__grupo-btn-enviar">
+						<button type="submit" class="formulario__btn">Enviar</button>
+						<p class="formulario__mensaje-exito" id="formulario__mensaje-exito">Formulario enviado exitosamente!</p>
+					</div>
+				</form>
+			</section>
+
+			<section>
+				
+				<div class="clientes">
+					<h2>Horarios</h2>
+				</div>
+
+				<div class="contenedor-lista">
+
+					<div class="items">
+						<p class="list-serv">Lunes</p>
+						<p class="list-precio">09-20hs</p>
+					</div>
+
+					<div>
+						<h6 class="linea"></h6>
+					</div>
+
+					<div class="items">
+						<p class="list-serv">Martes</p>
+						<p class="list-precio">09-20hs</p>						
+					</div>
+
+					<div>
+						<h6 class="linea"></h6>
+					</div>
+
+					<div class="items">
+						<p class="list-serv">Miércoles</p>
+						<p class="list-precio">09-20hs</p>
+					</div>
+
+					<div>
+						<h6 class="linea"></h6>
+					</div>
+
+					<div class="items">
+						<p class="list-serv">Jueves</p>
+						<p class="list-precio">09-20hs</p>
+					</div>
+
+					<div>
+						<h6 class="linea"></h6>
+					</div>
+
+					<div class="items">
+						<p class="list-serv">Viernes</p>
+						<p class="list-precio">09-20hs</p>
+					</div>
+
+					<div>
+						<h6 class="linea"></h6>
+					</div>
+					
+					<div class="items">
+						<p class="list-serv">Sábado</p>
+						<p class="list-precio">09-20hs</p>
+					</div>
+
+					<div>
+						<h6 class="linea"></h6>
+					</div>
+
+					<div class="items">
+						<p class="list-serv">Domingo</p>
+						<p class="list-precio">cerrado</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="seccion-mapa">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.528736829547!2d-58.36324188481342!3d-34.616076480456314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334d0adfc34c5%3A0xb083c63447cc56f2!2sAim%C3%A9%20Pain%C3%A9%201601%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1666568369555!5m2!1ses!2sar" width="900" height="460" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+			</section>
+		</main>
 
 		<footer>
 
@@ -78,6 +236,12 @@
 			</div>
 		</footer>
 
+		<!-- SCRIPTS -->
+
+		<script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+		<script src="../js/api.js"></script>
+		<script src="../js/script.js"></script>
+		
 	</body>
 
 </html>
