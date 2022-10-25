@@ -798,8 +798,40 @@ iframe{
 
 /* CSS - CONTACTO */
 
+.contacto {
+    text-align: center;
+    margin: 0 10% 0 0;
+}
+
+.contacto h2{
+    font-family: rondalsemibold;
+    font-size: 50px;
+    color: #e1e1e1;
+}
+
+.contacto h2::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: #ad987d;
+    margin-top: 30px;
+}
+
+.contacto h2::before{
+    left: 27px;
+}
+
+.contacto h2{
+  color: #e1e1e1;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count:infinite;
+  animation-timing-function: linear;
+}
+
 .seccion-formulario{
-    max-width: 800px;
+    max-width: 900px;
     width: 90%;
     margin: auto;
     padding: 40px;
@@ -826,13 +858,16 @@ iframe{
 }
 
 .formulario__input{
-    width: 100%;
+    font-family: rondalsemibold;
+    font-size: 16px;
+    padding-left: 7px;
+    color: #212123;
+    width: 95%;
     background: #ad987d;
     border: 3px solid transparent;
     border-radius: 3px;
     height: 35px;
     line-height: 45px;
-    padding: 0 40px 0 10px;
     transition: .3s ease all;
 }
 .formulario__input:focus{
@@ -848,8 +883,168 @@ iframe{
     display: none;
 }
 
+.formulario__input-error-activo{
+    display: block;
+    margin-top: 2%;
+    padding-left: 7px;
+    line-height: 1.5;
+}
+
+.formulario__validacion-estado{
+    position: absolute;
+    right: 20px;
+    bottom: 15px;
+    z-index: 100;
+    font-size: 16px;
+    opacity: 0;
+}
+
+.formulario__checkbox{
+    margin-right: 10px;
+}
+
+.formulario__grupo-terminos,
+.formulario__mensaje,
+.formulario__grupo-btn-enviar {
+    grid-column: span 2;
+}
+
+.formulario__mensaje{
+    height: 45px;
+    line-height: 45px;
+    background: #f66060;
+    padding: 0 15px;
+    border-radius: 3px;
+    display: none;
+}
+
+.formulario__mensaje-activo{
+    display: block;
+}
+
+.formulario__mensaje p{
+    margin: 0;
+}
+
+.formulario__grupo-btn-enviar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.formulario__btn{
+    font-family: rondalbold;
+    font-size: 20px;
+    font-weight: 700;
+    height: 45px;
+    line-height: 45px;
+    width: 30%;
+    background: #e1e1e1;
+    color: #212123;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: 500ms ease all;
+    margin-top: 3%;
+}
+
+.formulario__btn:hover{
+    transform: scale(1.07);
+}
+
+.formulario__mensaje-exito{
+    font-family: rondalsemibold;
+    font-size: 16px;
+    color: #119200;
+    margin-top: 2%;
+    display: none;
+}
+
+.formulario__mensaje-exito-activo {
+    display: block;
+}
+
+textarea{
+    resize: none;
+}
+
+#mensaje{
+    height: 80px;
+}
+
+#mensaje::-webkit-scrollbar{
+    width:7px;
+    background: none;
+}
+
+#mensaje::-webkit-scrollbar-thumb{
+    background: rgba(0, 0, 0, 0.30);
+    border-radius: 10px;
+    border-color: black;
+}
 
 
+/* CSS - ICONOS DE VALIDACION */
+
+.formulario__grupo-correcto .formulario__validacion-estado {
+    color: #008636;
+    opacity: 1;
+}
+
+.formulario__grupo-incorrecto .formulario__validacion-estado {
+    color: #bb2929;
+    opacity: 1;
+}
+
+@media screen and (max-width: 800px){
+    .formulario{
+        grid-template-columns: 1fr;
+    }
+    .formulario__grupo-terminos,
+    .formulario__mensaje,
+    .formulario__grupo-btn-enviar {
+        grid-column: 1;
+    }
+}
+
+.horarios {
+    text-align: center;
+    margin: 0 10% 0 0;
+}
+
+.horarios h2{
+    font-family: rondalsemibold;
+    font-size: 50px;
+    color: #e1e1e1;
+}
+
+.horarios h2::before{
+    content: '';
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: #ad987d;
+    margin-top: 30px;
+}
+
+.horarios h2::before{
+    left: 31px;
+}
+.horarios h2{
+  color: #e1e1e1;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count:infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes example {
+  25%   {color: #e1e1e1;}
+  25%  {color: #ad987d;}
+  25%  {color: #e1e1e1;}
+  25% {color: #ad987d;}
+}
 
 .linea{
     display: inline-block;
@@ -877,3 +1072,4 @@ iframe{
     width: 100%;
     margin-top: 5%;
 }
+
