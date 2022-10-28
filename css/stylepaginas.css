@@ -75,7 +75,7 @@ nav a:hover{
 h2{
     display: inline-block;
     position: relative;
-    font-size: 50px;
+    font-size: 60px;
     color: #e1e1e1;
     margin: 3% 0 2% 13%;
 }
@@ -114,8 +114,11 @@ h2::before{
 /* EFECTO HOVER + TRANSFORM 2D (SCALE) */
 
 .container figure img:hover{
-    content: url('../imagenes/serv-corte-color.png');
     transform: scale(1.07);
+}
+
+.serv-1{
+    margin-left: 6%;
 }
 
 .img-serv1{
@@ -124,6 +127,7 @@ h2::before{
 
 .serv-1-detalles{
     padding: 1%;
+    margin-top: 2%;
 }
 
 .titulo-icono-1{
@@ -132,18 +136,18 @@ h2::before{
 }
 
 .titulo-icono-1 img{
-    width: 80px;
+    width: 90px;
 }
 
 .titulo-icono-1 h3{
-    font-size: 40px;
+    font-size: 50px;
     color: #e1e1e1;
     padding: 1.5% 0 0 1%;
 }
 
 .serv-1-detalles p{
     font-family: rondalregular;
-    font-size: 24px;
+    font-size: 27px;
     line-height: 1.5;
     color: #ad987d;
     padding: 2% 0 0 8%;
@@ -161,25 +165,25 @@ h2::before{
 }
 
 .titulo-icono-2 h3{
-    font-size: 40px;
+    font-size: 50px;
     color: #e1e1e1;
     padding: 0.9% 0 0 0.5%;
 }
 
 .titulo-icono-2 img{
-    width: 80px;
+    width: 90px;
 }
 
 .serv-2-detalles p{
     font-family: rondalregular;
-    font-size: 24px;
+    font-size: 27px;
     line-height: 1.5;
     color: #ad987d;
     padding: 4% 0 0 4%;
 }
 
 .texto2{
-    width: 60%;
+    width: 80%;
     text-align: left;
     margin-left: 2.5%;
 }
@@ -187,6 +191,8 @@ h2::before{
 .serv-2{
     display: inline-flex;
     margin-bottom: 1.5%;
+    margin-top: 3%;
+    margin-left: 3%;
 }
 
 .container2{
@@ -205,12 +211,11 @@ h2::before{
 }
 
 .container2 figure img:hover{
-    content: url('../imagenes/serv-niños-color.png');
     transform: scale(1.07);
 }
 
 .img-serv2{
-    margin-left: 11%;
+    margin-left: 14%;
 }
 .serv-2-detalles{
     margin-top: 3%;
@@ -219,8 +224,9 @@ h2::before{
 
 .serv-3{
     display: inline-flex;
-    margin-left: 3%;
+    margin-left: 6%;
     margin-bottom: 2%;
+    margin-top: 3%
 }
 
 .container3{
@@ -239,13 +245,13 @@ h2::before{
 }
 
 .container3 figure img:hover{
-    content: url('../imagenes/serv-aseo-color.png');
     transform: scale(1.07);
 }
 
 .serv-3-detalles{
-    margin-top: 1%;
+    margin-top: 3%;
     margin-left: 1%;
+    margin-right: 18%
 }
 
 .titulo-icono-3{
@@ -254,25 +260,25 @@ h2::before{
 }
 
 .titulo-icono-3 img{
-    width: 130px;
+    width: 150px;
 }
 
 .titulo-icono-3 h3{
-    font-size: 40px;
+    font-size: 50px;
     color: #e1e1e1;
     padding: 4% 0 0 0;
 }
 
 .serv-3-detalles p{
     font-family: rondalregular;
-    font-size: 24px;
+    font-size: 27px;
     line-height: 1.5;
     color: #ad987d;
     padding: 1% 0 0 14%;
 }
 
 .texto3{
-    width: 65%;
+    width: 90%;
     text-align: left;
     margin-left: 2%;
 }
@@ -283,32 +289,32 @@ h2::before{
 }
 
 .titulo-icono-4 h3{
-    font-size: 40px;
+    font-size: 50px;
     color: #e1e1e1;
     padding: 2% 0 0 0.5%;
 }
 
 .titulo-icono-4 img{
-    width: 70px;
+    width: 100px;
 }
 
 .serv-4-detalles p{
     font-family: rondalregular;
-    font-size: 24px;
+    font-size: 27px;
     line-height: 1.5;
     color: #ad987d;
     padding: 4% 0 0 4%;
 }
 
 .texto4{
-    width: 60%;
+    width: 65%;
     text-align: left;
     margin-left: 2.5%;
 }
 
 .serv-4{
     display: inline-flex;
-    margin-bottom: 3%;
+    margin: 3% 0 3% 3%
 }
 
 .container4{
@@ -327,12 +333,11 @@ h2::before{
 }
 
 .container4 figure img:hover{
-    content: url('../imagenes/serv-fomento-color.png');
     transform: scale(1.07);
 }
 
 .img-serv4{
-    margin-left: -7%;
+    margin-left: -15%;
 }
 
 .serv-4-detalles{
@@ -343,6 +348,10 @@ h2::before{
 .container5{
     width: 100%;
     display: flex;
+}
+
+.texto5{
+    width: 95%
 }
 
 /* EFECTO HOVER + TRANSFORM 2D (SCALE) */
@@ -356,8 +365,13 @@ h2::before{
 }
 
 .container5 figure img:hover{
-    content: url('../imagenes/serv-afeitado-color.png');
     transform: scale(1.07);
+}
+
+.divisor{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .divisor-img{
@@ -396,8 +410,9 @@ h4::after{
 
 .titulo-precio h3{
     font-family: rondalsemibold;
-    font-size: 40px;
+    font-size: 50px;
     text-transform: uppercase;
+    margin-bottom: 5%;
 }
 
 /* ANIMACIÓN LISTA DE PRECIOS (cambia de color sutil) */
@@ -421,9 +436,9 @@ h4::after{
     width: 50%;
     align-self: center;
     font-family: rondalregular;
-    font-size: 25px;
+    font-size: 30px;
     text-transform: uppercase;
-    margin: 3% 25% 0 25%;
+    margin: 3% 25% 5% 25%;
 }
 
 .list-serv{
@@ -450,14 +465,14 @@ h6{
 h6::before{
     content: '';
     position: absolute;
-    width: 765px;
+    width: 960px;
     height: 2px;
     background-color: #ad987d;
     top: -0.4em;
 }
 
 h6::before{
-    left: -420px;
+    left: -527px;
 }
 
 footer {
@@ -805,26 +820,26 @@ iframe{
 
 .contacto {
     text-align: center;
-    margin: 0 10% 0 0;
+    margin: 0 11% 0 0;
 }
 
 .contacto h2{
     font-family: rondalsemibold;
-    font-size: 50px;
+    font-size: 60px;
     color: #e1e1e1;
 }
 
 .contacto h2::before{
     content: '';
     position: absolute;
-    width: 120px;
+    width: 140px;
     height: 3px;
     background-color: #ad987d;
     margin-top: 30px;
 }
 
 .contacto h2::before{
-    left: 27px;
+    left: 32px;
 }
 
 .contacto h2{
@@ -1015,26 +1030,27 @@ textarea{
 
 .horarios {
     text-align: center;
-    margin: 0 10% 0 0;
+    margin: 0 11% 0 0;
 }
 
 .horarios h2{
     font-family: rondalsemibold;
-    font-size: 50px;
+    font-size: 60px;
     color: #e1e1e1;
+    margin-top: 5%;
 }
 
 .horarios h2::before{
     content: '';
     position: absolute;
-    width: 120px;
+    width: 140px;
     height: 3px;
     background-color: #ad987d;
     margin-top: 30px;
 }
 
 .horarios h2::before{
-    left: 31px;
+    left: 38px;
 }
 .horarios h2{
   color: #e1e1e1;
@@ -1062,19 +1078,19 @@ textarea{
 .linea::before{
     content: '';
     position: absolute;
-    width: 765px;
+    width: 960px;
     height: 2px;
     background-color: #ad987d;
     top: -0.4em;
 }
 
 .linea::before{
-    left: -80px;
+    left: -100px;
 }
 
 .seccion-mapa{
     display: flex;
     width: 100%;
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
