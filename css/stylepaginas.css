@@ -50,40 +50,9 @@ header{
     margin-right: 10%;
 }
 
-.toggle-menu img{
-    max-width: 100%;
-}
-
-.toggle-menu{
-    width: 40px;
-    position: absolute
-    top: 1rem
-    right: 1rem
-    filter: invert(1);
-    cursor: pointer
-}
-
-@media screen and (min-width:768) {
-    .toggle-menu{
-        display:none;
-    }
-    
-}
-
-.main-menu{
-    background-color: #ad987d;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-@media screen (min-width: 768px) {
-    .main-menu{
-        flex-direction: row;
-    }
-}
-
-.main-menu__item{
-    padding: 1em;
+nav li{
+    display: inline-flex;
+    padding-top: 85px;
 }
 
 nav a{
