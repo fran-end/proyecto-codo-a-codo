@@ -46,7 +46,7 @@ header{
 .main-nav{
     font-family: rondalsemibold;
     font-size: 40px;
-    margin-top: 5.1%;
+    margin-top: 4.9%;
     margin-left: 11.5%;
 }
 
@@ -105,7 +105,7 @@ header{
 }
 
 .main-menu__item {
-  padding: 1em;
+  padding: 0.5em;
 }
 
 .main-menu__link {
@@ -290,6 +290,7 @@ h4::before{
 footer{
     padding-left: 4%;
 }
+
 .footer-div{
     display: flex;
 }
@@ -309,12 +310,10 @@ footer{
     padding-top: 3%;
     padding-left: 1%;
 }
-
 .datos a{
     text-decoration: none;
     color: #ad987d;
 }
-
 .tel-icono{
     display: flex;
 }
@@ -324,18 +323,38 @@ footer{
 .telefono{
     padding-top: 2%;
 }
+
+nav li{
+    display: inline-flex;
+    padding-top: 85px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #e1e1e1;
+    font-size: 40px;
+    text-decoration: none;
+    padding: 20px;
+}
+
+nav a:hover{
+    color: #ad987d;
+    text-decoration: underline;
+}
+
 .copy{
     text-align: center;
 }
 
-h5{
+.copy h5{
     display: inline-block;
     position: relative;
     font-size: 50px;
     color: #e1e1e1;
     margin: -1% 0 3% 10%;
 }
-h5::before{
+
+.copy h5::before{
     content: '';
     position: absolute;
     width: 1600px;
@@ -343,9 +362,11 @@ h5::before{
     background-color: #ad987d;
     top: 0.6em;
 }
-h5::before{
+
+.copy h5::before{
     left: -940px;
 }
+
 #foy{
     font-family: rondalregular;
     color: #e1e1e1;
