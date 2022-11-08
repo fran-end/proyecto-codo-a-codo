@@ -861,6 +861,11 @@ h4::after{
     line-height: 45px;
     transition: .3s ease all;
 }
+
+.formulario__input::placeholder{
+    color: #212123;
+}
+
 .formulario__input:focus{
     border: 3px solid #e1e1e1;
     outline: none;
@@ -1296,7 +1301,9 @@ nav a:hover{
 
 
 @media screen and (max-width: 768px) {
-    .logo{margin-left: -3%;}
+    .logo{
+        margin-left: -3%;
+    }
 
     .contenedor-lista{
         margin-top: 10%;
@@ -1367,10 +1374,11 @@ nav a:hover{
     }
 
     .barra-nav-f{
+        width: 110px;
         font-family: rondalsemibold;
         font-size: 25px;
         display: flex;
-        padding-left: 15%;
+        padding-left: 20%;
         margin-top: 7%;
 
     }
