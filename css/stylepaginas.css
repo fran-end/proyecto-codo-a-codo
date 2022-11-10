@@ -1232,6 +1232,103 @@ nav a:hover{
         padding: 0.5em;
     }
 
+    /*MEDIA QUERY GALERÍA*/
+
+    .nuestrostrabajos{
+        font-size: 55px;
+    }
+
+    .nuestrostrabajos::before{
+        content: '';
+        position: absolute;
+        width: 75px;
+        height: 7px;
+        background-color: #ad987d;
+        margin-top: 27px;
+    }
+    
+    .nuestrostrabajos::before{
+        left: 400px;
+    }
+    
+    .nuestrostrabajos::after{
+        content: '';
+        position: absolute;
+        width: 75px;
+        height: 7px;
+        background-color: #ad987d;
+        margin-top: 27px;
+    }
+    
+    .nuestrostrabajos::after{
+        left: 880px;
+    }
+
+    .clientes h2{
+        font-size: 55px;
+    }
+
+    .clientes h2::before{
+        content: '';
+        position: absolute;
+        width: 116px;
+        height: 3px;
+        background-color: #ad987d;
+        margin-top: 30px;
+    }
+    
+    .clientes h2::before{
+        left: 27px;
+    }
+
+    .clientes-info{
+        font-size: 23px;
+        margin-top: 2%;
+    }
+
+    .style1{
+        margin: auto;
+        width: 90%;
+    }
+    .style5{
+        font-family: rondalbold;
+        font-size: 18px;
+        color: #212123;
+        margin: -5% 0 15% 40%;
+    }
+
+    .video{
+        margin: 7% 0 3% 10%;
+        font-family: rondalsemibold;
+        font-size: 35px;
+        color: #e1e1e1;
+    }
+    
+    .video::before{
+        content: '';
+        position: absolute;
+        width: 50px;
+        height: 8px;
+        background-color: #ad987d;
+        margin-top: 15px;
+    }
+    
+    .video::before{
+        left: 60px;
+    }
+    
+    .galeria-video{
+        position: relative;
+        text-align: center;
+        margin-bottom: 4%;
+    }
+
+    .slider{
+        width: 70%;
+    }
+
+    /*MEDIA QUERY CONTACTO*/
+
     .contenedor-lista{
         margin-top: 10%;
     }
@@ -1305,12 +1402,10 @@ nav a:hover{
     .copy h5::before{
         left: -670px;
     }
-
-
-    
+   
 }
 
-/* MEDIA QUERY CONTACTO */
+/* MEDIA QUERY 768X800 */
 
 
 @media screen and (max-width: 768px) {
@@ -1318,6 +1413,163 @@ nav a:hover{
         margin-left: -3%;
     }
 
+    /*MEDIA QUERY GALERIA*/
+
+    .nuestrostrabajos{
+        font-size: 45px;
+    }
+
+    .nuestrostrabajos::before{
+        content: '';
+        position: absolute;
+        width: 60px;
+        height: 7px;
+        background-color: #ad987d;
+        margin-top: 21px;
+    }
+    
+    .nuestrostrabajos::before{
+        left: 150px;
+    }
+    
+    .nuestrostrabajos::after{
+        content: '';
+        position: absolute;
+        width: 60px;
+        height: 7px;
+        background-color: #ad987d;
+        margin-top: 21px;
+    }
+    
+    .nuestrostrabajos::after{
+        left: 560px;
+    }
+
+    .slider{
+        width: 90%;
+    }
+
+    .clientes h2{
+        font-size: 45px;
+        margin-top: 9%;
+    }
+
+    .clientes h2::before{
+        content: '';
+        position: absolute;
+        width: 95px;
+        height: 3px;
+        background-color: #ad987d;
+        margin-top: 25px;
+    }
+    
+    .clientes h2::before{
+        left: 22px;
+    }
+
+    .clientes-info{
+        font-size: 21px;
+        margin-top: 2%;
+    }
+
+    .style1{
+        margin: auto;
+        width: 100%;
+    }
+    
+    .style2::-webkit-scrollbar{
+        width: 4px;
+        height: 7px;
+        background: none;
+    }
+    
+    .style2::-webkit-scrollbar-thumb{
+        height: 5px;
+        background: rgba(175, 152, 125, 0.20);
+        border-radius: 10px;
+        border-color: black;
+    }
+    
+    .style2{
+        display: flex;
+        overflow: auto;
+        padding-bottom: 1rem;
+    }
+    
+    .style2 .style_card{
+        flex: 0 0 auto;
+        margin: 1rem;
+        width: 50%;
+        padding: 3%;
+    }
+  
+    .style5{
+        font-family: rondalbold;
+        font-size: 18px;
+        color: #212123;
+        margin: -5% 0 15% 37%;
+    }
+
+    .video{
+        margin: 20% 0 3% 6%;
+        font-family: rondalsemibold;
+        font-size: 30px;
+        color: #e1e1e1;
+        text-align: center;
+    }
+    
+    .video::before{
+        content: '';
+        position: absolute;
+        width: 50px;
+        height: 5px;
+        background-color: #ad987d;
+        margin-top: 15px;
+    }
+    
+    .video::before{
+        left: 60px;
+    }
+    
+    .galeria-video{
+        position: relative;
+        text-align: center;
+        margin-bottom: 4%;
+    }
+
+    .galeria-video iframe{
+        width: 90%;
+        height: 400px;
+        margin-top: 4%;
+        margin-bottom: 8%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*MEDIA QUERY CONTACTO*/
     .contenedor-lista{
         margin-top: 10%;
     }
