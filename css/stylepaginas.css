@@ -1327,6 +1327,164 @@ nav a:hover{
         width: 70%;
     }
 
+    /*MEDIA QUERY SERVICIOS*/
+
+    .servicios-titulo h2{
+        margin: 3% 0 2% 10%;
+    }
+
+    .servicios-titulo h2::before{
+        width: 60px;
+    }
+
+    .servicios-titulo h2::before{
+        left: -90px;
+    }
+
+    .img-serv1, .img-serv2, .img-serv3, .img-serv4, .img-serv5 {
+        width: 650px;
+    }
+
+    .serv-1{
+        margin-left: 2%;
+    }
+
+    .texto1{
+        width: 90%;
+        text-align: left;
+        margin-left: 2%;
+    }
+
+    .serv-2-detalles{
+        margin-top: 3%;
+        margin-left: 22%;
+    }
+
+    .titulo-icono-2{
+        display: flex;
+        padding: 3% 0 2% 1%;
+    }
+
+    .titulo-icono-2 h3{
+        width: 60%;
+    }
+
+    .texto2{
+        width: 85%;
+        text-align: left;
+        margin-left: 2.5%;
+        margin-top: 4%;
+    }
+
+    .serv-2{
+        margin-left: -25%;
+    }
+
+    .serv-3{
+        margin-left: 2%;
+    }
+    .serv-3-detalles{
+        width: 600px;
+        margin-left: -4.5%;
+    }
+
+    .titulo-icono-3{
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    .titulo-icono-3 h3{
+        width: 400px;
+        padding: 4% 0 0 0;
+    }
+
+    .titulo-icono-3 img{
+        margin-top: -3%;
+    }
+
+    .texto3{
+        width: 100%;
+        margin-left: 10%;
+    }
+
+    .titulo-icono-4{
+        display: flex;
+        padding: 1% 0 4% 3%;
+        margin-left: -8%;
+    }
+
+    .titulo-icono-4 h3{
+        padding-top: 3%;
+    }
+
+    .texto4{
+        width: 83%;
+        margin-left: -5%;
+    }
+
+    .serv-4{
+        display: inline-flex;
+        margin: 3% 0 3% 2%;
+    }
+
+    .img-serv4{
+        margin-left: -5%;
+    }
+
+    .serv-4-detalles{
+        margin-top: 2%;
+    }
+
+    .titulo-icono-3 .titulo5{
+        width: 500px;
+    }
+
+    .serv-5{
+        margin-left: -2.5%;
+    }
+    .texto5{
+        width: 90%;
+        margin-left: 10%;
+    }
+
+    .divisor{
+        width: 80%;
+        margin-left: 12%;
+        margin-right: 10%;
+    }
+
+    h4::after, h4::before{
+        content: "";
+        position: absolute;
+        width: 500px;
+        height: 3px;
+        background-color: #ad987d;
+        top: 1.2em;
+    }
+
+    h4::before{
+        left: -500px;
+    }
+
+    h4::after{
+        right: -360px;
+    }
+
+    .linea-p h6::before{
+        content: '';
+        position: absolute;
+        width: 683px;
+        height: 2px;
+        background-color: #ad987d;
+        top: -0.15em;
+    }
+
+    .linea-p h6::before{
+        left: -80px;
+    }
+
+
+
     /*MEDIA QUERY CONTACTO*/
 
     .contenedor-lista{
@@ -1545,7 +1703,7 @@ nav a:hover{
     }
 
 
-
+    /*MEDIA QUERY SERVICIOS*/
 
 
 
