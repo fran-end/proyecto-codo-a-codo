@@ -253,8 +253,8 @@ h2::before{
 
 .serv-2{
     display: inline-flex;
-    margin-bottom: 1.5%;
     margin-top: 3%;
+    margin-bottom: 1.5%;
     margin-left: 3%;
 }
 
@@ -1705,29 +1705,182 @@ nav a:hover{
 
     /*MEDIA QUERY SERVICIOS*/
 
+    .servicios-titulo {
+        justify-content: center;
+        text-align: center;
+    }
 
+    .serv-1{
+        display: inline;
+        justify-content: center;
+    }
 
+    .container{
+        justify-content: center;
+    }
 
+    .titulo-icono-1{
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+    }
 
+    .texto1{
+        width: 90%;
+        text-align: center;
+    }
 
+    .serv-2{
+        display: inline;
+    }
 
+    .serv-2-detalles{
+        text-align: center;
+        justify-content: center;
+    }
 
+    .titulo-icono-2{
+        justify-content: center;
+    }
 
+    .titulo-icono-2 img{
+        width: 90px;
+        margin-top: 10%;
+        margin-right: -4%;
+        margin-left: 4%;
+    }
 
+    .titulo-icono-2 h3{
+        margin: 10% 0 0 0;
+        width: 50%;
+    }
 
+    .texto2{
+        width: 70%;
+        text-align: center;
+        margin: 0 15% 5% 15%;
+    }
 
+    .container2{
+        justify-content: center;
+    }
+    .img-serv2{
+        margin-left: 0;
+    }
+    .serv-2-detalles{
+        margin: 0;
+        justify-content: center;
+    }
 
+    .serv-3{
+        display: inline;
+        justify-content: center;
+    }
 
+    .container3{
+        justify-content: center;
+        margin-top: 10%;
+    }
 
+    .serv-3-detalles{
+        justify-content: center;
+        margin-left: -5%;
+    }
 
+    .titulo-icono-3{
+        justify-content: center ;
+        margin-left: 20%;
+    }
 
+    .titulo-icono-3 h3{
+        margin-left: -3%;
+    }
+    .texto3{
+        margin-left: 12%;
+        text-align: center;
+    }
 
+    .serv-4{
+        display: inline;
+        justify-content: center;
+    }
+
+    .titulo-icono-4{
+        justify-content: center;
+    }
+
+    .serv-4-detalles{
+        text-align: center;
+        justify-content: center;
+        margin-top: 10%;
+    }
+   
+    .texto4{
+        width: 85%;
+        text-align: center;
+        margin: 0 5% 0 5%;
+    }
+    .container4{
+        justify-content: center;
+    }
+    .img-serv4{
+        margin-top: 5%;
+        margin-left: 0;
+    }
+
+    .container5{
+        margin-top: 10%;
+        justify-content: center;
+    }
+
+    .texto5{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20%;
+        margin-left: 15%;
+
+    }
+
+    .divisor-img{
+        width: 150px;
+        margin-left: 9%;
+    }
+
+    h4::after,h4::before{
+        width: 280px;
+    }
+
+    h4::before{
+        left: -270px;
+    }
+
+    h4::after{
+        right: -180px;
+    }
+
+    .contenedor-lista{
+        width: 80%;
+        margin: 3% 10% 5% 10%;
+    }
+
+    .linea-p h6::before{
+        width: 610px;
+    }
+
+    .linea-p h6::before{
+        left: -70px;
+    }
 
 
 
 
 
     /*MEDIA QUERY CONTACTO*/
+
+    .seccion-formulario{
+        padding: 20px;
+    }
+
     .contenedor-lista{
         margin-top: 10%;
     }
@@ -1743,24 +1896,25 @@ nav a:hover{
     div .linea::before{
         content: '';
         position: absolute;
-        width: 385px;
+        width: 615px;
         height: 2px;
         background-color: #ad987d;
-        top: -0.3em;
+        top: -0.5em;
     }
 
     div .linea::before{
-        left: -38px;
+        left: -60px;
     }
 
     .map-responsive{
-        display:flex;
-        width: 100%;
         margin: 0;
         padding: 0;
-
-
+        width: 100%;
+        display:flex;
     }
+
+
+
 
     footer{
         padding: 0;
